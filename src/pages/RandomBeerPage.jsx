@@ -1,3 +1,11 @@
-function RandomBeersPage() {}
+import BeerDetailsPage from "./BeerDetailsPage";
 
-export default RandomBeersPage;
+function RandomBeerPage() {
+  return (
+    <div>
+      <BeerDetailsPage random="random" />
+    </div>
+  );
+}
+
+export default RandomBeerPage;
